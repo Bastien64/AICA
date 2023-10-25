@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+@media only screen and (min-width: 767px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif !important;
+        background-color: #f0f0f0;
+        /* Changer la couleur de fond selon vos préférences */
+    }
+
+    .tailleindex {
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .accueil {
+        width: 100vw;
+        height: 45vh;
+        background-color: rgb(0, 0, 0) !important;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+
+
+    }
+
+    .divphototechnologie {
+        width: 50%;
+        margin-top: 0%;
+    }
+
+    .divtextaccueil {
+        width: 40%;
+        margin-top: 0%;
+        padding: 2%;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .imagetechnologie4 {
+        width: 80%;
+        height: 40vh;
+        margin-left: 15%;
+        margin-top: 0%;
+    }
+
+    .logopetit {
+        width: 75px;
+        height: auto;
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+
+    h1 h3 {
+        padding: 20px;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .bandeauchiffre {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        height: auto;
+        font-family: 'Roboto', sans-serif !important;
+        color: white;
+
+    }
+    .bandeauchiffrediv2 {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .bandeauchiffre p {
+        font-size: 0.7rem;
+        margin-bottom: -0.1rem;
+    }
+
+
+    .cardbootstrap {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1%;
+    }
+
+    .card {
+        border-radius: 10px;
+        padding-top: 2px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .iconecard {
+        margin: auto;
+        width: 50px !important;
+        height: auto !important;
+    }
+
+    .card-title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .card-text {
+        color: #000;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 0.7rem;
+        font-style: normal;
+        line-height: normal;
+    }
+
+}
+
+@media only screen and (max-width: 765px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif !important;
+        background-color: #f0f0f0;
+        /* Changer la couleur de fond selon vos préférences */
+    }
+
+
+    .accueil {
+
+        background-color: rgb(0, 0, 0) !important;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .divphototechnologie {
+        width: 100%;
+        margin-top: 0%;
+    }
+
+    .divtextaccueil {
+        width: 100%;
+        margin-top: 0%;
+        padding: 2%;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .imagetechnologie4 {
+        width: 80%;
+
+        margin-left: 15%;
+        margin-top: 0%;
+    }
+
+    .logopetit {
+        width: 75px;
+        height: auto;
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+
+    h3 {
+        padding: 10px;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 1rem!important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .bandeauchiffre {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        height: auto;
+        font-family: 'Roboto', sans-serif !important;
+        color: white;
+
+    }
+
+    .bandeauchiffrediv2 h5  {
+        font-size: 1rem!important;
+        margin-top: 10px;
+    }
+    .bandeauchiffre p {
+        font-size: 0.5rem;
+margin-top: -0.2rem!important;
+    }
+
+
+    .cardbootstrap {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1%;
+    }
+
+    .card {
+        border-radius: 10px;
+        margin-top: 2rem;
+        padding-top: 2px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .iconecard {
+        margin: auto;
+        width: 50px !important;
+        height: auto !important;
+    }
+
+    .card-title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .card-text {
+        color: #000;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 0.7rem;
+        font-style: normal;
+        line-height: normal;
+    }
+
+
+}
