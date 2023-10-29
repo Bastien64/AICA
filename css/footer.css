@@ -57,16 +57,16 @@
         justify-content: space-between;
         width: 100%;
         font-size: 8px;
-        padding: 10%;
+        padding: 5%;
     }
     
     .plandusite {
         order: 3; /* Déplacez cet élément après .apropos */
 
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         text-align: start;
-        align-items: center;
+        align-items: start;
     }
     .plandusitecol {
         display: flex;
@@ -74,7 +74,7 @@
     }
     
     .plandusitecol div {
-        margin-left: 10px;
+        margin-right: 10px;
     }
     
     .textcenterfooter{
@@ -91,11 +91,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        text-align: start;
+        text-align: end;
         line-height : 2px;
     }
     .apropos h5 {
-        text-align: center;
+        text-align: end;
     
     }
 }
