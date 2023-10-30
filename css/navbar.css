@@ -48,6 +48,12 @@
     justify-content: center;
 }
 
+.contactnavbar:hover {
+
+    background: #606080;
+
+}
+
 .contactnavbar p {
     margin: auto!important;
 }
