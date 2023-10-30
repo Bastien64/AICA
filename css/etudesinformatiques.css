@@ -3,9 +3,10 @@
 
 .imageaccueil {
     width: 55%;
+
 }
 .divimageaccueil {
-    background-color: black;
+    background-color: #050100;
     align-items: center;
     margin: auto;
     display: flex;
