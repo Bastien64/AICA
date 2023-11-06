@@ -34,7 +34,7 @@ h1  {
 .texte {
     margin-top: 2%!important;
     color: #000;
-    font-family: Open Sans;
+    font-family: 'Roboto', sans-serif !important;
     font-size: 25px!important; 
     font-style: normal;
     font-weight: 400;
@@ -177,13 +177,14 @@ h1  {
 
 .divimageinterlude {
     background-color: black;
-    height: 145px;
+    height: 355px;
     position: relative;
 }
 
 .imageinterlude {
-    background: no-repeat center/98% url("../photos/Compo2A.jpg");
-    height: 130px;
+    background: no-repeat center/100% url("../photos/Compo2A.jpg");
+    height: 350px;
+    width: 100vw!important;
     position: absolute;
     top: 0;
     left: 0;
