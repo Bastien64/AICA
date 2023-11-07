@@ -1,4 +1,9 @@
 @media only screen and (min-width: 767px) { 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     footer {
     background-color: black;
     color: white    ;

@@ -47,18 +47,20 @@ h1  {
     display: flex;
     flex-direction: row;
     justify-content: space-around!important;
+    align-items: center ;
     color: white;
     padding: 1%;
 }
 
 .imagepremiereslide {
     margin-left: 10%;
-    width: 80%;
+    height: 400px!important;
+    width: 500px;
     height: auto;
 }
 
 .textpremiereslide {
-    padding-right: 10%;
+    padding-right: 7%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -88,22 +90,22 @@ h1  {
 
 }
 .underlinetitlepremiereslide {
-    margin-top: 5%;
+    margin-top: 2%;
     bottom: 0;
     left: 0;
-    width: 400%;
+    width: 100%;
     height: 4px; 
     background-color: white;
-    transform: translateY(100%); /* Déplace l'underline en haut */
+
 }
 .underlinetitlepremiereslide2 {
-    margin-top: 5%!important;
+    margin-top: 2%!important;
     bottom: 0;
     left: 0;
-    width: 350%;
+    width: 75%;
     height: 4px; 
     background-color: white;
-    transform: translateY(100%); /* Déplace l'underline en haut */
+
     margin-bottom: 2%;
 }
 
@@ -120,8 +122,10 @@ h1  {
 }
 
 .imagesecondeslide {
-    width: 100%;
-    height: auto;
+
+    height: 450px!important;
+    width: 600px;
+
 }
 
 .textsecondeslide {
@@ -170,7 +174,7 @@ h1  {
     margin-top: 1%;
     bottom: 0;
     left: 0;
-    width: 120%;
+    width: 100%;
     height: 4px; 
     background-color: black;
     transform: translateY(100%); /* Déplace l'underline en haut */
@@ -209,6 +213,7 @@ h1  {
 
 /* troisieme SLIDE */
 
+
 .troisiemeslidedesktop {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -222,7 +227,7 @@ h1  {
 }
 
 .imagetroisiemeslide {
-    width:80%;
+    width:70%;
     height: auto;
 }
 
@@ -279,7 +284,6 @@ h1  {
     margin-bottom: 2%;
 }
 
-
 /* quatrieme SLIDE */
 
 .quatriemeslidedesktop {
@@ -294,7 +298,7 @@ h1  {
 }
 
 .imagequatriemeslide {
-    width: 100%;
+    width: 600px;
     height: auto;
     margin-top: 5%;
 }
@@ -335,7 +339,7 @@ h1  {
     margin-top: 1%;
     bottom: 0;
     left: 0;
-    width: 220%;
+    width: 100%;
     height: 4px; 
     background-color: black;
     transform: translateY(100%); 
@@ -344,7 +348,7 @@ h1  {
     margin-top: 2%!important;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     height: 4px; 
     background-color:black;
     transform: translateY(100%); 
