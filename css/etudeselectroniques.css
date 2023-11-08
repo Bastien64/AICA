@@ -2,14 +2,14 @@
 @media only screen and (min-width: 767px) {
 
 /* GENERAL */
+p, ul, h1, h2   {
+    font-family: 'Roboto', sans-serif !important;
+}
 
 span {
-    font-family: 'Roboto', sans-serif !important;
     font-size: 15px!important; 
-
     font-weight: bold;
     line-height: normal; 
-
 }
 .imageaccueil {
     width: 55%;
@@ -24,6 +24,7 @@ span {
 .texttop {
     margin-top: 2%!important;
     margin-bottom: 2%!important;
+
     width: 55%;
     display: flex;
     flex-direction: column;
@@ -34,8 +35,6 @@ span {
 }
 h1  {
     color: #000;
-
-    font-family: 'Roboto', sans-serif !important;
     font-size: 35px!important; 
     font-style: normal;
     font-weight: 700;
@@ -45,7 +44,6 @@ h1  {
 .texte {
     margin-top: 2%!important;
     color: #000;
-    font-family: 'Roboto', sans-serif !important;
     font-size: 25px!important; 
     font-style: normal;
     font-weight: 400;
@@ -78,7 +76,6 @@ h1  {
 }
 
 .titlepremiereslide {
-    font-family: 'Roboto', sans-serif !important;
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
@@ -93,7 +90,6 @@ h1  {
 .ppremiereslide {
     padding-left: 20%;
     font-size: 20px;
-
 }
 .underlinetitlepremiereslide {
     margin-top: 1%;
@@ -143,7 +139,7 @@ h1  {
 
 .titlesecondeslide {
     color: black;
-    font-family: 'Roboto', sans-serif !important;
+
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
@@ -235,7 +231,7 @@ h1  {
 
 .titletroisiemeslide {
     color: black;
-    font-family: 'Roboto', sans-serif !important;
+
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
@@ -280,14 +276,18 @@ ul {
 }
 }
 @media only screen and (max-width: 765px) {
-    span {
+/* GENERAL */
+    p, ul, h1, h2   {
         font-family: 'Roboto', sans-serif !important;
+    }
+    span {
         font-size: 15px!important; 
-    
         font-weight: bold;
         line-height: normal; 
     
     }
+
+/* PAGE  */
 
     .imageaccueil {
         width: 100%;
@@ -313,7 +313,7 @@ ul {
     h1  {
         color: #000;
     
-        font-family: 'Roboto', sans-serif !important;
+    
         font-size: 20px!important; 
         font-style: normal;
         font-weight: 700;
@@ -360,7 +360,7 @@ ul {
     }
     
     .titlepremiereslide {
-        font-family: 'Roboto', sans-serif !important;
+    
         font-size: 35px;
         font-style: normal;
         font-weight: 700;
@@ -442,7 +442,7 @@ ul {
     
     .titlesecondeslide {
         color: black;
-        font-family: 'Roboto', sans-serif !important;
+    
         font-size: 35px;
         font-style: normal;
         font-weight: 700;
@@ -543,7 +543,7 @@ ul {
     
     .titletroisiemeslide {
         color: black;
-        font-family: 'Roboto', sans-serif !important;
+    
         font-size: 35px;
         font-style: normal;
         font-weight: 700;
