@@ -154,21 +154,26 @@
         margin: auto;
         width: 6vh !important;
         height: auto !important;
+        margin-top: 10px;
     }
 
 
     .card-title {
         text-align: center;
         font-weight: 700;
-        font-size: 0.8rem;
+        font-size: 1.5vh;
     }
 
     .card-text {
         color: #000;
         font-family: 'Roboto', sans-serif !important;
-        font-size: 0.7rem;
+        font-size: 1.3vh;
         font-style: normal;
         line-height: normal;
+    }
+
+    .card-text-size {
+        font-size: 1.5vh !important;
     }
 
 }
