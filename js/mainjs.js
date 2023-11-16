@@ -1,5 +1,5 @@
-
-    
+// IMPORTATION DE LA NAVBAR ET DU FOOTER DANS LES .HTML
+     // Charger la navbar
     var navbarContainer = document.getElementById("navbarbox");
     var navbarXhr = new XMLHttpRequest();
     navbarXhr.open("GET", "../htmlelements/navbar.html", true);

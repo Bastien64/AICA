@@ -16,36 +16,40 @@
         line-height: normal;
     }
 
-    /*PAGE*/
+    /*TOP PAGE*/
 
+    .tailleindex {
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
 
     .imageaccueil {
-        width: 55%;
+        width: 40vw;
     }
 
     .divimageaccueil {
+        width: 100%;
         background-color: black;
-        align-items: center;
-        margin: auto;
+        align-items: top;
         display: flex;
         justify-content: center;
     }
 
     .texttop {
-        margin-top: 2% !important;
-        margin-bottom: 2% !important;
         width: 55%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         text-align: center;
         margin: auto;
     }
 
     h1 {
         color: #000;
-
         font-size: 35px !important;
         font-style: normal;
         font-weight: 700;
@@ -55,7 +59,6 @@
     .texte {
         margin-top: 2% !important;
         color: #000;
-
         font-size: 25px !important;
         font-style: normal;
         font-weight: 400;
@@ -92,7 +95,6 @@
     }
 
     .titlepremiereslide {
-
         font-size: 35px;
         font-style: normal;
         font-weight: 700;
@@ -146,7 +148,6 @@
     }
 
     .imagesecondeslide {
-
         height: 450px !important;
         width: 600px;
 
@@ -170,7 +171,6 @@
 
     .titlesecondeslide {
         color: black;
-
         font-size: 35px;
         font-style: normal;
         font-weight: 700;
@@ -188,7 +188,6 @@
         text-align: start;
         font-size: 20px;
         width: 70%;
-
     }
 
     .ulsecondslide {
@@ -203,7 +202,7 @@
         height: 4px;
         background-color: black;
         transform: translateY(100%);
-        /* Déplace l'underline en haut */
+
     }
 
     .underlinetitlesecondeslide2 {
@@ -214,7 +213,6 @@
         height: 4px;
         background-color: black;
         transform: translateY(100%);
-        /* Déplace l'underline en haut */
         margin-bottom: 2%;
     }
 
@@ -239,8 +237,7 @@
     }
 
 
-    /* troisieme SLIDE */
-
+    /* TROISIEME SLIDE */
 
     .troisiemeslidedesktop {
         background-color: rgb(255, 255, 255);
@@ -314,7 +311,7 @@
         margin-bottom: 2%;
     }
 
-    /* quatrieme SLIDE */
+    /* QUATRIEME SLIDE */
 
     .quatriemeslidedesktop {
         background-color: rgb(255, 255, 255);
@@ -344,7 +341,6 @@
 
     .titlequatriemeslide {
         color: black;
-
         font-size: 35px;
         font-style: normal;
         font-weight: 700;
@@ -405,7 +401,7 @@
         line-height: normal;
     }
 
-    /*PAGE*/
+    /*TOP PAGE*/
 
     .imageaccueil {
         width: 100%;
@@ -595,7 +591,7 @@
         margin-top: 2%;
         bottom: 0;
         left: 0;
-        width: 5px;
+        width: 2px;
         height: 75%;
         background-color: rgb(0, 0, 0);
         margin-right: 10px;
@@ -606,7 +602,7 @@
         margin-top: 2%;
         bottom: 0;
         left: 0;
-        width: 5px;
+        width: 2px;
         height: 100%;
         background-color: rgb(0, 0, 0);
         margin-right: 10px;
@@ -697,7 +693,7 @@
         margin-top: 2%;
         bottom: 0;
         left: 0;
-        width: 5px;
+        width: 2px;
         height: 65%;
         background-color: rgb(0, 0, 0);
         margin-right: 10px;
@@ -707,7 +703,7 @@
         margin-top: 2%;
         bottom: 0;
         left: 0;
-        width: 5px;
+        width: 2px;
         height: 100%;
         background-color: rgb(0, 0, 0);
         margin-right: 10px;
@@ -749,7 +745,6 @@
 
     .titlequatriemeslide {
         color: black;
-
         font-size: 35px;
         font-style: normal;
         font-weight: 700;
@@ -758,7 +753,6 @@
         z-index: 5;
         display: flex;
         flex-direction: column-reverse;
-
         padding-right: 15%;
         margin-top: 5%;
     }
@@ -785,7 +779,7 @@
         margin-top: 2%;
         bottom: 0;
         left: 0;
-        width: 5px;
+        width: 2px;
         height: 100%;
         background-color: rgb(0, 0, 0);
         margin-right: 10px;
@@ -795,7 +789,7 @@
         margin-top: 2%;
         bottom: 0;
         left: 0;
-        width: 5px;
+        width: 2px;
         height: 75%;
         background-color: rgb(0, 0, 0);
         margin-right: 10px;

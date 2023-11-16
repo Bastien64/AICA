@@ -11,33 +11,40 @@ span {
     line-height: normal; 
 }
 
-/*PAGE*/
-.imageaccueil {
-    width: 55%;
+/*TOP PAGE*/
 
-}
-.divimageaccueil {
-    background-color: #050100;
-    align-items: center;
-    margin: auto;
+.tailleindex {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    box-sizing: border-box;
     display: flex;
-    justify-content: center;}
+    flex-direction: column;
+}
 
+.imageaccueil {
+    width: 40vw;
+}
+
+.divimageaccueil {
+    width: 100%;
+    background-color: black;
+    align-items: top;
+
+    display: flex;
+    justify-content: center;
+}
 .texttop {
-    margin-top: 2%!important;
-    margin-bottom: 2%!important;
-    width: 55%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+
     text-align: center;
     margin: auto;
 }
 h1  {
     color: #000;
-
-    
     font-size: 35px!important; 
     font-style: normal;
     font-weight: 700;
@@ -47,7 +54,6 @@ h1  {
 .texte {
     margin-top: 2%!important;
     color: #000;
-    
     font-size: 25px!important; 
     font-style: normal;
     font-weight: 400;
@@ -69,7 +75,6 @@ h1  {
 }
 
 .imagepremiereslide {
-
     width: 90%;
 
 }
@@ -115,7 +120,7 @@ h1  {
     width: 120%;
     height: 4px; 
     background-color: white;
-    transform: translateY(100%); /* Déplace l'underline en haut */
+    transform: translateY(100%); 
 }
 .underlinetitlepremiereslide2 {
     margin-top: 2%!important;
@@ -124,7 +129,7 @@ h1  {
     width: 100%;
     height: 4px; 
     background-color: white;
-    transform: translateY(100%); /* Déplace l'underline en haut */
+    transform: translateY(100%); 
     margin-bottom: 2%;
 }
 
@@ -161,7 +166,6 @@ h1  {
 
 .titlesecondeslide {
     color: black;
-    
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
@@ -192,7 +196,7 @@ h1  {
     width: 850px;
     height: 4px; 
     background-color: black;
-    transform: translateY(100%); /* Déplace l'underline en haut */
+    transform: translateY(100%);
 }
 .underlinetitlesecondeslide2 {
     margin-top: 2%!important;
@@ -201,7 +205,7 @@ h1  {
     width: 550px;
     height: 4px; 
     background-color:black;
-    transform: translateY(100%); /* Déplace l'underline en haut */
+    transform: translateY(100%); 
     margin-bottom: 2%;
 }
 
@@ -227,7 +231,6 @@ h1  {
 
 
 /* troisieme SLIDE */
-
 .troisiemeslidedesktop {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -256,7 +259,6 @@ h1  {
 
 .titletroisiemeslide {
     color: black;
-    
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
@@ -309,7 +311,7 @@ span {
     line-height: normal; 
 }
 
-/*PAGE*/
+/*TOP PAGE*/
     .imageaccueil {
         width: 100%;
     }
@@ -503,7 +505,7 @@ span {
         margin-top: 2%;
         bottom: 0;
         left: 0;
-        width: 5px;
+        width: 2px;
         height: 75%; 
         background-color: rgb(0, 0, 0);
         margin-right: 10px;
@@ -513,7 +515,7 @@ span {
         margin-top: 2%;
         bottom: 0;
         left: 0;
-        width: 5px;
+        width: 2px;
         height: 100%; 
         background-color: rgb(0, 0, 0);
         margin-right: 10px;
@@ -604,7 +606,7 @@ span {
         margin-top: 2%;
         bottom: 0;
         left: 0;
-        width: 5px;
+        width: 2px;
         height: 75%; 
         background-color: rgb(0, 0, 0);
         margin-right: 10px;
@@ -613,7 +615,7 @@ span {
         margin-top: 2%;
         bottom: 0;
         left: 0;
-        width: 5px;
+        width: 2px;
         height: 100%; 
         background-color: rgb(0, 0, 0);
         margin-right: 10px;

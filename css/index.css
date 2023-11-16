@@ -3,11 +3,8 @@
 @media only screen and (min-width: 767px) {
     span {
         font-family: 'Roboto', sans-serif !important;
-        font-size: 15px!important; 
-    
+        font-size: 15px !important;
         font-weight: bold;
-
-    
     }
 
     body {
@@ -16,9 +13,8 @@
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif !important;
         background-color: #f0f0f0;
-        /* Changer la couleur de fond selon vos préférences */
     }
-
+     /*IMAGE ET TEXTE DESCRIPTION*/
     .tailleindex {
         width: 100%;
         height: 100vh;
@@ -36,8 +32,6 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-
-
     }
 
     .divphototechnologie {
@@ -70,14 +64,6 @@
         height: auto;
     }
 
-    h1 {
-        font-family: 'Roboto', sans-serif !important;
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-        letter-spacing: 1px;
-    }
 
     h1 h3 {
         padding: 20px;
@@ -88,6 +74,9 @@
         line-height: normal;
     }
 
+
+    
+  /*BANDEAU NOMBRE*/
     .bandeauchiffre {
         background-color: black;
         display: flex;
@@ -100,12 +89,13 @@
 
 
     }
+
     .bandeauchiffrediv2 {
         width: 50%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-bottom: 1%!important;
+        margin-bottom: 1% !important;
     }
 
     .bandeauchiffre p {
@@ -113,10 +103,10 @@
         margin-bottom: -0.1rem;
     }
 
-
+  /*4 CARDS*/
     .cardbootstrap {
         width: 100%;
-        height: 100%!important;
+        height: 100% !important;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -126,7 +116,7 @@
     }
 
     .card {
-        height: 24vh!important;
+        height: 24vh !important;
         border-radius: 10px;
         padding-top: 5px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
@@ -179,13 +169,13 @@
 }
 
 @media only screen and (max-width: 765px) {
+
+     /*IMAGE ET TEXTE DESCRIPTION*/
     span {
         font-family: 'Roboto', sans-serif !important;
-        font-size: 15px!important; 
-    
+        font-size: 15px !important;
         font-weight: bold;
-        line-height: normal; 
-    
+        line-height: normal;
     }
 
     body {
@@ -193,12 +183,10 @@
         padding: 0;
         font-family: 'Roboto', sans-serif !important;
         background-color: #f0f0f0;
-        /* Changer la couleur de fond selon vos préférences */
     }
 
 
     .accueil {
-
         background-color: rgb(0, 0, 0) !important;
         display: flex;
         flex-direction: column-reverse;
@@ -225,7 +213,6 @@
 
     .imagetechnologie4 {
         width: 80%;
-
         margin-left: 15%;
         margin-top: 0%;
     }
@@ -247,12 +234,13 @@
     h3 {
         padding: 10px;
         font-family: 'Roboto', sans-serif !important;
-        font-size: 1rem!important;
+        font-size: 1rem !important;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
 
+     /*BANDEAU NOMBRE*/
     .bandeauchiffre {
         background-color: black;
         display: flex;
@@ -265,16 +253,17 @@
 
     }
 
-    .bandeauchiffrediv2 h5  {
-        font-size: 1rem!important;
+    .bandeauchiffrediv2 h5 {
+        font-size: 1rem !important;
         margin-top: 10px;
     }
+
     .bandeauchiffre p {
         font-size: 0.5rem;
-margin-top: -0.2rem!important;
+        margin-top: -0.2rem !important;
     }
 
-
+  /*4 CARDS*/
     .cardbootstrap {
         width: 100vw;
         height: auto;
@@ -297,7 +286,8 @@ margin-top: -0.2rem!important;
 
     }
 
-    .iconecard, .iconecard2 {
+    .iconecard,
+    .iconecard2 {
         margin: auto;
         width: 50px !important;
         height: auto !important;
